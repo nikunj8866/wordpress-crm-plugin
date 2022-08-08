@@ -1,0 +1,718 @@
+body {
+    overflow-y: scroll;
+}
+
+#adminmenuwrap {
+    position: relative !important;
+}
+
+#main {
+    margin-left: 0;
+    padding-bottom: 0;
+    padding: 0;
+    min-height: 0;
+}
+
+#header>:first-child {
+    width: auto;
+}
+
+#header>div {
+    height: auto;
+    float: none;
+}
+
+.upicrm_lead_actions .glyphicon {
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+h2 {
+    letter-spacing: -1px;
+    font-size: 22px;
+    margin: 10px 0;
+    line-height: normal;
+}
+
+#table-tabs {
+    border: 0px solid;
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+}
+
+    #table-tabs select, option {
+        font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+        font-size: 1.2em;
+        width: 100%;
+    }
+    #table-tabs label.control-label {
+        padding-top: 5px;
+        font-size: 1.2em;
+    }
+    #table-tabs th {
+       font-size: 1.3em;
+       border-top: 1px solid #ddd;
+       border-left: 1px solid #ddd;
+       border-right: 1px solid #ddd;
+    }
+    #table-tabs tbody td {
+        border: 0px solid;
+        background-color: transparent;
+        padding: 0px;
+    }
+
+        #table-tabs tbody td.fields-container {
+            border: 0px solid;
+            background-color: white;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+            #table-tabs tbody td.fields-container table {
+                border-bottom: 1px solid #ddd;
+                border-right: 1px solid #ddd;
+            }
+
+                #table-tabs tbody td.fields-container table td {
+                    padding: 10px 8px 8px 10px;
+                    border-left: 1px solid #ddd;
+                    border-top: 1px solid #ddd;
+                    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+                    letter-spacing: -1px;
+                }
+
+#tabs {
+    display: none;
+    background-color: transparent;
+    font-family: "Open Sans",Arial,Helvetica,Sans-Serif;
+    letter-spacing: -1px;
+}
+
+    #tabs div.ul-tab {
+        background-color: red;
+        position: relative;
+        height: 100%;
+        float: left;
+    }
+
+    #tabs div.container-tab {
+        background-color: green;
+        position: relative;
+        height: 100%;
+        float: left;
+    }
+
+.ui-tabs-vertical {
+    _width: 55em;
+}
+
+#tabscont {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    min-height: 100%;
+    height: 100%;
+}
+
+.ui-tabs-vertical .ui-tabs-nav {
+    padding: .0em .0em .0em .0em;
+    float: left;
+    width: 100%;
+    background-color: transparent !important;
+    border: 0px solid red !important;
+}
+
+    .ui-tabs-vertical .ui-tabs-nav li {
+        clear: left;
+        width: 100%;
+        border-bottom-width: 0px !important;
+        border-right-width: 0 !important;
+        margin: 0;
+        background-color: transparent !important;
+        position: relative;
+        right: -2px;
+        margin-bottom: -1px;
+    }
+
+        .ui-tabs-vertical .ui-tabs-nav li a {
+            display: block;
+            background-color: transparent !important;
+            border: 0px solid transparent !important;
+            width: 100%;
+            font-size: 1.2em;
+        }
+
+        .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+            padding-bottom: 0;
+            padding-right: .1em;
+            border-right-width: 0px;
+            border-right-width: 0px;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd !important;
+            border-right: 1px solid white;
+            background-color: white !important;
+            margin-right: -1px;
+            margin-bottom: -1px;
+        }
+
+            .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active a {
+                -webkit-box-shadow: -2px 0px 0 #57889c !important;
+                background-color: transparent !important;
+                width: 100%;
+                font-size: 1.2em;
+            }
+
+.ui-tabs-vertical .ui-tabs-panel {
+    padding: 1em;
+    float: left;
+    width: 100%;
+    border-left: 0px solid #ddd;
+    border-right: 0px solid #ddd;
+    border-top: 0px solid #ddd;
+    border-bottom: 0px solid #ddd;
+    background-color: white;
+    height: 100%;
+}
+
+.pointer-click {
+    cursor: pointer;
+}
+
+.num_list {
+    list-style-type: decimal;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.ajax_load {
+    background: url("../images/load.gif");
+    height: 16px;
+    width: 16px;
+}
+
+.ajax_load2 {
+    background: url("../images/load2.gif");
+    height: 66px;
+    width: 66px;
+}
+
+#footer-thankyou,
+#footer-upgrade {
+    display: none;
+}
+
+.pad_form {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.pad_form label {
+    display: block;
+}
+
+.pad_form select,
+.pad_form input {
+    width: 100%;
+}
+
+#user_tree_view ul {
+    margin-left: 16px;
+}
+
+#user_tree_view li {
+    margin-bottom: 0;
+    margin: 3px 0;
+}
+
+#user_tree_view .glyphicon {
+    cursor: pointer;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+
+
+.text-wellcome {
+    line-height: 16pt;
+    margin-bottom: 12pt;
+}
+
+.text-username {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.text-numbers {
+    color: #f17349;
+    font-size: 12pt;
+}
+
+.bg-cell {
+    min-height: 110px;
+}
+
+.new-leads {
+    margin-bottom: 12pt;
+}
+
+.new-leads-title {
+    font-weight: 700;
+    padding: 10px;
+    background: #e3e3e3;
+}
+
+.new-leads-list {
+    height: 50px;
+    overflow: auto;
+}
+
+.new-leads-list ul {
+    padding: 0;
+    margin: 6px 0 0 8px;
+}
+
+.new-leads-list ul li {
+    padding: 1px 2px 1px 2px;
+    margin: 0;
+}
+
+.new-leads-list ul li span {
+    display: inline-block;
+    float: right;
+    font-style: italic;
+    color: #666;
+    padding-right: 12px;
+}
+
+.manage-export a {
+    display: block;
+    font-size: 22pt;
+    color: #f17349;
+    line-height: 23pt;
+    margin-bottom: 14pt;
+}
+
+.fa-width {
+    min-width: 45px;
+}
+
+table.dataTable thead>tr>th input[type="checkbox"] {
+    width: auto !important;
+}
+
+.a_blue {
+    color: #3276b1;
+}
+
+.nopad {
+    padding: 0 !important;
+}
+
+#edit_lead_form,
+#edit_lead_comment_form {
+    font-size: 16px;
+}
+.tab-panel .tab-panel-contents .tab-content{
+    display: none;
+    margin-top: 20px;
+}
+.tab-panel .tab-panel-contents .tab-content.active{
+    display: block;
+}
+
+#upicrm_datatable_wrapper select {
+        max-width: 150px;
+        height: 32px;
+
+}
+
+#upicrm_datatable_wrapper tr td{
+    max-width: 184px;
+    word-wrap: break-word;
+}
+
+#upicrm_datatable_wrapper {
+    overflow-x: scroll;
+}
+
+#upicrm_datatable_wrapper .dt-toolbar-footer {
+    position: absolute;
+    bottom: -43px;
+    width: 100%;
+}
+
+#ChooseDate {
+   display: inline-block;
+}
+
+#upicrm_date_range {
+    margin-left: 20px;
+    display: none;
+    position: relative;
+}
+
+#upicrm_date_range .input-group {
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+}
+
+#upicrm_date_range .input-group input{
+    width: 120px;
+}
+
+#upicrm_date_range .input-group label{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+}
+
+#upicrm_date_range .input-group i {
+    position: relative;
+    left: -19px;
+    z-index: 2;
+    top: 7px;
+}
+
+form.web-service-form .fields {
+    margin-bottom:6px;
+}
+
+form.web-service-form .item {
+  float: left;
+}
+
+form.web-service-form .item label {
+    margin-right: 3px;
+    display: block;
+    font-weight: bold;
+}
+
+form.web-service-form input[type=submit] {
+    clear: both;
+    display: block;
+    margin-top:6px;
+
+}
+
+code {
+  white-space:pre;
+  white-space:pre-wrap;
+  word-break:break-all;
+  word-wrap:break-word;
+}
+ #upicrm_datatable tbody tr.even:hover, #upicrm_datatable tbody tr.even td.highlighted {
+    background-color: #ECFFB3 ;
+}
+ /*#upicrm_datatable tbody tr.odd:hover, #upicrm_datatable tbody tr.odd td.highlighted {*/
+    /*background-color: #E6FF99 ;*/
+/*}*/
+ #upicrm_datatable tr.even:hover {
+    background-color: #ECFFB3 ;
+}
+ #upicrm_datatable tr.even:hover td.sorting_1 {
+    background-color: #DDFF75 ;
+}
+ #upicrm_datatable tr.even:hover td.sorting_2 {
+    background-color: #E7FF9E ;
+}
+ #upicrm_datatable tr.even:hover td.sorting_3 {
+    background-color: #E2FF89 ;
+}
+
+.upicrm-gly-spin{
+    animation: spin 2s infinite linear
+}
+.upicrm-gly-spin.loady{
+    margin: 0 6px;
+    display: none;
+}
+
+.upicrm_datepicker_desg {
+    display: inline-block;
+}
+
+.upicrm_datepicker_desg {
+    display: inline-block;
+}
+
+.upicrm_datepicker_desg input {
+    width: 120px;
+}
+.upicrm_datepicker_desg i {
+    position: relative;
+    margin-left: -22px;
+    z-index: 2;
+    top: 1px;
+}
+
+.upicrm_notice p {
+    font-size: 18px;
+}
+
+#log_modal.upicrm, #user_assign_modal.upicrm {
+    margin-top: 35px;
+}
+
+#user_assign_modal.upicrm label{
+    /* display: block; */
+    margin-right: 5px;
+}
+#user_assign_modal.upicrm input[type="submit"]
+{
+    display: block;
+    margin-top: 30px;
+}
+#user_assign_modal .updated{
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+#user_assign_modal input[type="submit"].loading,
+#send_email_lead input[type="submit"].loading,
+#send_email_reply_lead input[type="submit"].loading{
+    background-image: url(../images/load.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    visibility: visible;
+    min-width: 90px;
+    pointer-events: none;
+ }
+ #lead-data input[type="submit"].loading,
+ #note input[type="submit"].loading{
+    background-image: url(../images/load.gif);
+    background-repeat: no-repeat;
+    background-position: right center;
+    visibility: visible;
+    min-width: 130px;
+    pointer-events: none;
+ }
+/*#user_assign_modal.modal {
+    text-align: center;
+    padding: 0!important;
+}
+
+#user_assign_modal.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+#user_assign_modal .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+} */
+#log_modal.upicrm #inside_log {
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 350px;
+}
+
+#upicrm_warp .checkbox input[type="checkbox"] {
+    margin-top: 0;
+}
+
+#upicrm_fields_sortable li {
+    margin-bottom: 0;
+    border: 1px solid #000;
+    width: 40%;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 3px;
+    list-style-type: none;
+}
+
+#upicrm_fields_sortable li .arr {
+    float: right;
+}
+
+#upicrm_fields_sortable input[type="checkbox"] {
+    border-radius: 0;
+    border: 1px solid #000;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.upicrm_ul_list li {
+    list-style-type: disc;
+    margin: 0 35px;
+    padding: 0;
+}
+.tab-panel .tab-panel-nav{
+    border-bottom: 2px solid #777;
+}
+.tab-panel .tab-panel-nav li{
+    display: inline-block;
+    margin-bottom: -1px;
+}
+ul.tab-panel-nav li a{
+    padding: 12px 28px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+ul.tab-panel-nav li.active a{
+    background: #333;
+    color: #fff;
+}
+#edit_lead_comment_form label{
+    width: 100%;;
+}
+#edit_lead_comment_form textarea{
+    width: 100%;
+    height: 100px;
+}
+.admin_page_upicrm_edit_lead  .notice, .admin_page_upicrm_edit_lead div.error, .admin_page_upicrm_edit_lead div.updated{
+    margin: 10px 0px;
+}
+.upi_processing{
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Email Boz */
+/* .hidden{
+    display:none;
+}
+.mailBox {
+    border: 1px solid #ccc;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 400px;
+} */
+.mailBox a {
+    cursor: pointer;
+}
+.mailRecipients {
+    height: auto;
+}
+.mailElem a {
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: monospace;
+}
+.mailRecipients, #mailIDSubject {
+    border-bottom: 1px solid #ccc;
+}
+.mailElemCnt {
+    display: inline-block;
+}
+.mailElemContExpand {
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.mailElemCntA, .mailElemCntLbl{
+    width: 75px;
+}
+.mailElemCnt input {
+    width: 240px;
+    padding: 10px 0px;
+    border: none;
+}
+.mailElemCnt label{
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: monospace;
+}
+.mailBodyBox {
+    width: 100%;
+    height: 190px;
+    border: none;
+    margin-top: 20px;
+    /*border-bottom: 1px solid #ccc; */
+}
+.mailboxBottom input[type=button] {
+    padding: 10px 25px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+}
+.mailBox .bootstrap-tagsinput {
+    border: none;
+    box-shadow: none;
+}
+.mail-thread{
+    max-width: 600px;
+    margin-top: 20px;
+}
+.mail-thread .mail-item{
+    padding: 10px;
+    border-bottom: 1px solid;
+    background: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.mail-thread .mail-item .mail-date{
+    float: right;
+}
+.mail-thread .mail-item .mail-to{
+    display: block;
+}
+.mail-thread .mail-item .action{
+    display: block;
+    float: right;
+    clear: both;
+}
+.mail-thread .mail-content{
+    max-height: 100px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.mail-thread .mail-item.open .mail-content{
+    max-height: 100%;
+}
+.mail-thread .mail-content .gmail_quote,
+.mail-thread .mail-content .gmail_quote .gmail_attr
+{
+    display: none;
+}
+.mail-thread .mail-item.open .mail-content > .gmail_quote,
+.mail-thread .mail-item.open .mail-content > .gmail_quote.open .gmail_attr,
+.mail-thread .mail-item.open .mail-content > .gmail_quote.open .gmail_quote{
+    display: block;
+}
+.mail-content > .gmail_quote::before{
+    text-align: center;
+    content: "\f141";
+    /* font-size: 5px; */
+    background: #eaf0f6;
+    border-radius: 20%;
+    width: 30px;
+    display: block;
+    border-color: #cbd6e2;
+    color: #506e91;
+    font: bold 12px/1 FontAwesome;
+}
+/*#upicrm_datatable tr.odd:hover {
+    /*background-color: #E6FF99 ;*/
+/*}*/
+ /*#upicrm_datatable tr.odd:hover td.sorting_1 {*/
+    /*background-color: #D6FF5C ;*/
+/*}*/
+ /*#upicrm_datatable tr.odd:hover td.sorting_2 {*/
+    /*background-color: #E0FF84 ;*/
+/*}*/
+ /*#upicrm_datatable tr.odd:hover td.sorting_3 {*/
+    /*background-color: #DBFF70 ;*/
+/*}*/
+tr .glyphicon-remove{
+    cursor: pointer;
+}
